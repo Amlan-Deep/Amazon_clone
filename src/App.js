@@ -1,35 +1,20 @@
-// import React from 'react';
-// import './App.css';
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import Home from './Home';
-
-// function App() {
-//   return (
-//  <Router>
-//         <Routes>
-//           <Route exact path="/" component={Home} />
-          
-//         </Routes>
-//       </Router>
-//     );
-//   }
-  
-
-
-// export default App;
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home.js';
-
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Header from "./components/Header/Header";
 function App() {
-  return (
+return (
+  <div className="app">
     <Router>
       <Routes>
-        <Route exact path="/" component={<Home/>} />
-        {/* Add more routes here if needed */}
+      <Route path="/" element={<Header/>}/>
+      <Route exact path="/" element={<Home/>} />
+      
+      
       </Routes>
     </Router>
-  );
+  </div>
+);
 }
-
 export default App;
