@@ -1,7 +1,7 @@
-### Amazon Clone
+# Amazon Clone
 This is a clone of the Amazon website built using React.js. It replicates the core functionalities of the Amazon website, such as browsing products, adding them to the cart, and processing orders.
 
-# Live Demo
+## Live Demo
 A live demo of the project can be found here.
 https://amazon-clone-gamma-sand.vercel.app/
 
@@ -14,7 +14,7 @@ Cart functionality: Users can adjust the quantity of items in their cart, remove
 Checkout: Users can enter their shipping address and payment information to complete their order.
 Order history: Users can view their order history, including the products they have purchased.
 
-# Technologies Used
+## Technologies Used
 React.js: The front-end of the application is built using React.js, a popular JavaScript library for building user interfaces.
 Firebase: Firebase is used for user authentication and data storage.
 HTML & CSS: The project utilizes HTML and CSS for structuring and styling the application.
